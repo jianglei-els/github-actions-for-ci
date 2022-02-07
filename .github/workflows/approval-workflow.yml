@@ -4,7 +4,7 @@ jobs:
   labelWhenApproved:
     runs-on: ubuntu-latest
     steps: 
-    - name: MyFirstAutoApproval2
+    - name: MyFirstAutoApproval
       uses: pullreminders/label-when-approved-action@master
       env:
         APPROVALS: "1"
